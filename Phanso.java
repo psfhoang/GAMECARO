@@ -37,34 +37,13 @@ public class Phanso {
             this.tu = tu;
             this.mau = mau;
         }
-
-        public void setTu(int tu) {
-            this.tu = tu;
-        }
-
-        public void setMau(int mau) {
-            this.mau = mau;
-        }
-
-        public int getTu() {
-            return tu;
-        }
-
-        public int getMau() {
-            return mau;
-        }
-
         public int UCLN(int a, int b) {
             int k;
-            if(a<b)
-            {
-                k=a;
-                a=b;
-                b=k;
-                
+            if (a < b) {
+                k = a;
+                a = b;
+                b = k;
             }
-                
-
             while (a % b != 0) {
                 b = a % b;
                 a = b;
